@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="canvas.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/canvas.js"></script>
+  <meta charset="UTF-8">
+  <title>HTML5 Canvas</title>
+</head>
+<body>
+
+    <div class="header">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+          <a href="About.html">About Milton</a>
+          <a href="Project1.html">Project 1</a>
+          <a href="Project2.html"">Project 2</a>
+          <a href="#">Project 3</a>
+        </li>
+      </ul>
+    </div>
+<!-- <canvas id="draw" width="800" height="800"></canvas> -->
+
+<!-- <script src="js/canvas.js"></script> -->
+<h1 style="color: white; position: absolute; text-align: center; margin-left: auto; margin-right: auto; left:0; right:0;">Canvas Business Model</h1>
+<h2 id="app_status">App status...</h2>
+<h1>Drop Zone</h1>
+<div class="canvasMain" draggable="false">
+<div class="canvas" draggable="false">
+<div class="drop_zone big" id="Key Partners" draggable="false" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" ><p draggable="false">Key Partners</p></div>
+<div class="drop_zone" id="Key Activities" draggable="false" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" ><p draggable="false">Key Activities</p></div>
+<div class="drop_zone" id="Key Resources" draggable="false" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" ><p draggable="false">Key Resources</p></div>
+</div>
+
+<div class="canvas" draggable="false">
+  <div class="drop_zone big" id="Value Proposition" draggable="false" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" ><p draggable="false">Value Proposition</p></div>
+  <div class="drop_zone" id="Customer Relationships" draggable="false" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" ><p draggable="false">Customer Relationships</p></div>
+  <div class="drop_zone" id="Channels" draggable="false" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" ><p draggable="false">Channels</p></div>
+  
+  </div>
+  <div class="canvas" draggable="false">
+  <div class="drop_zone big" id="Customer Segments" draggable="false" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" ><p draggable="false">Customer Segments</p></div>
+  </div>
+  <div class="drop_zone wide" id="Cost Structure" draggable="false" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" ><p draggable="false">Cost Structure</p></div>
+  <div class="drop_zone wide" id="Revenue Streams" draggable="false" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" ><p draggable="false">Revenue Streams</p></div>
+  <div class="drop_zone Bin" id="Bin" ondragenter="drag_enter(event)" ondrop="drag_drop_Bin(event)" ondragover="return false" ondragleave="drag_leave(event)" ><p>Bin</p></div>
+
+</div>
+<br>
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<hr>
+<!-- <button onclick="readDropZone()">Get Object Data</button> -->
+<br><br>
+<div class="creatObject">
+<textarea name="dno" id="objectText" cols="30" rows="10"></textarea>
+<button style="background-color: coral; border: none; padding: 5px; position:absolute; bottom: 50px; right:0px;" onclick="CreateObject()">Create Object</button>
+</div>
+
+</body>
+</html>

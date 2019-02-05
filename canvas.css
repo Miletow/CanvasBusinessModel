@@ -1,0 +1,92 @@
+.objects {
+    display:inline-block;
+    background-color: #FFF3CC;
+    border: #DFBC6A 1px solid;
+    height: 50px;
+    margin: 10px;
+    padding: 8px;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 2px 2px 2px #999;
+    cursor: move;
+    overflow:auto;
+}
+.drop_zone {
+    float: left;
+    display: inline-block;
+    background-color: #EEE; 
+    border: #999 1px solid;
+    width: 280px; 
+    height: 200px;
+    margin-right: 5px;
+    
+    font-size: 18px;
+}
+h2{
+    color:red;
+}
+.big{
+    height: 402px;
+    
+}
+.wide{
+    width: 700px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.canvas{
+    display: grid;
+    grid-auto-flow: row;
+    width: 574px;
+    height: 420px;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 0px;
+}
+.canvasMain{
+    height:420px;
+}
+.csscolumn {
+    -webkit-column-count: 3;  /* Chrome, Safari, Opera */
+    -moz-column-count: 3;     /* Firefox */
+    column-count: 3;
+  }
+  
+  /* styling for this demo */
+  .csscolumn {
+    width: 50%;
+  }
+  .csscolumn + .csscolumn {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid;
+  }
+  .canvasMain{
+      display: block;
+  }
+
+p{  
+    margin:0px;
+    padding: 5px;
+   
+}
+
+.Bin{
+    float:right;
+    border-radius: 5px;
+    width: 100px;
+    margin-right: 50px;
+}
+
+textarea{
+    border-radius: 5px;
+    resize: none;
+}
+
+.creatObject{
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    height:200px;
+    width: 330px;
+}

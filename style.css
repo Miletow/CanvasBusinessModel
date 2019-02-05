@@ -1,0 +1,43 @@
+
+body{
+    margin:0px;
+    background-color: black;
+}
+.header{
+    width: 100%;
+    background-color: #0D324D;
+    overflow: auto;
+
+}
+
+ul {
+list-style: none;
+right: 100px;
+float: right;
+  margin-right: 20px;
+}
+
+ul a{
+
+  display: inline-block;
+	color: black;
+  background-color: #29524A;
+  border-radius: 5px;
+	padding: 10px;
+  margin-right: 10px;
+
+
+	text-decoration: none;
+	font-family: monospace;
+	font-weight: ;
+	font-size: 20px;
+}
+li{
+  float: left;
+}
+html, body {
+  margin: 0;
+}
+canvas{
+  width: 100%;
+}
